@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+body{
+  margin:0;
+  padding:0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-img{
+  position: absolute;
+  width:100vw;
+  height:100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.65;
+  z-index: -2;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search{
+  width: 100%;
+  height:300px;
+  display: inline-block;
+  margin-left: 30%;
+  margin-right: auto;
+  margin-top: 100px;
+  position: relative;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+input{
+  width: 30%;
+  height: 3rem;
+  background-color: rgba(228, 225, 225, 0.89);
+  text-align:center;
+  font-size: x-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button{
+  height:3rem;
+}
+
+.App-Box {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  align-items: center;
+  border-radius: 1rem;
+  margin-top: 10px;
+}
+
+.bracket{
+  font-size: 15px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.img{
+  border-radius: 1rem;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon{
+  width:10rem;
+  height:10rem;
 }
+.card{
+  /* opacity: 0.8; */
+  /* padding:3rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  position:absolute;
+  top: 0; */
+  border-radius: 20px;
+}
+
+.degree{
+  font-size: 40px;
+}
+
+.input-group{
+  font-size: larger;
+  /* margin: auto;
+  margin-left: 20%; */
+  z-index: 3;
+ 
+}
+
+
+
+
+
