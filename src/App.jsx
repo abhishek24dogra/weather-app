@@ -8,7 +8,7 @@ import 'weather-react-icons/lib/css/weather-icons.css';
 import { IoLocation, IoSearch } from 'react-icons/io5';
 
 const weatherKey = {
-  key: 'c3077108e0f14c79b5ab3a5bd4568df3',
+  key: process.env.REACT_APP_API_KEY,
   base: `https://api.openweathermap.org/data/2.5/forecast?`,
 
   icon: 'https://openweathermap.org/img/w'
